@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+   
+}
+
+header{
+    background: linear-gradient(#588e5d, #fff);
+    width: 100%;
+    height: 150px;
+}
+
+#logo{
+    clear: both;
+}
+
+nav{
+    width: 15%;
+    min-width: 200px;
+    float: right;
+}
+
+
+#navsup li img {
+    width: 25px;
+    padding-left: 30%;
+    
+}
+
+#navsup .menu_li :hover{
+    width: 30px;      
+}
+
+#foto{
+    margin-top: -70px;
+}
+
+#foto_curriculo{
+    width: 80%;
+    padding:0 20px;
+    margin-top: -30px;
+    
+    
+    
+}
+
+#foto_curriculo img{
+    width: 40%;
+
+}
+
+#apresentacao{
+    width: 60%;
+    height: 85%;
+    padding: 10px;
+    
+}
+
+#rodape_apresentacao{
+    float: right;
+    width: 60%;
+    height: 15%;
+
+}
+
+
+#rodape_apresentacao img{
+    width: 30px;
+    margin:10px 0 0 20px;
+}
+
+#rodape_apresentacao .link_rod :hover{
+    width: 40px;
+}
+
+#foto h2{
+    font-weight: 800;
+
+}
+
+
+table{
+    width: 100%;
+margin-top: 30px;
+
+    
+}
+
+.coluna1{
+    text-align: left;
+    font-weight: bolder;
+    padding: 5px;
+    font-size: 1.2em;
+}
+
+.coluna2{
+    text-align: center;
+}
+
+.btn-curriculo{
+    margin-top: 20px;
+}
