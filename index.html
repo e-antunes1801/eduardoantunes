@@ -11,40 +11,37 @@
 </head>
 
 <body class="font-monospace">
-
-    <nav id="navlat" class="sticky-top">
-        <ul class="menu list-inline d-inline-block">
-
-            <li class="list-inline-item li_navlat"><a class="link_lat text-decoration-none"
-                    href="https://www.linkedin.com/in/eduardo-antunes" target="_blank"><img src="imagens/linkedin.svg"
-                        alt="linkedin"></a></li>
-
-            <li class="list-inline-item li_rodape"><a class="link_lat text-decoration-none"
-                    href="https://github.com/e-antunes1801" target="_blank"><img src="imagens/github.svg"
-                        alt="github"></a></li>
-
-            <li class="list-inline-item li_rodape">
-                <a class="link_rod text-decoration-none"
-                    href="https://api.whatsapp.com/send/?phone=5521988017343&text=Oi+Eduardo&app_absent=0"
-                    target="_blank"><img src="imagens/whatsapp.svg" alt="whatsapp"></a>
-            </li>
-
-            <li class="list-inline-item li_rodape"><a class="link_lat text-decoration-none"
-                    href="mailto:eduardo_antunes1801@hotmail.com" target="_blank"><img src="imagens/envelope.svg"
-                        alt="email"></a>
-            </li>
-
-            <li class="list-inline-item li_rodape"><a class="link_lat text-decoration-none"
-                    href="https://www.instagram.com/e.antunes/ " target="_blank"><img src="imagens/instagram.svg"
-                        alt="instagram"></a>
-            </li>
-        </ul>
-    </nav>
-
-    <header class="">
-        <div id="logo" class="float-start text-white m-4">
-            Eduardo Antunes
+    <nav class="navbar navbar-dark bg-dark navbar-expand-sm fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Eduardo Antunes</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end bg-dark " tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title text-light " id="offcanvasNavbarLabel">Menu</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div id="navegacao" class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link " href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#sobremim">Sobre mim</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#skills">Habilidades</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
+    </nav>
+    <header id="home" class="">
         <div id="texto-header" class="">
             <h1 class="text-white ">
                 Olá, Mundo!
@@ -80,7 +77,8 @@
             <h1>Sobre mim.</h1>
             <h4>Desenvolvedor Front-End.</h4>
             <p>
-                Olá, me chamo <strong> Eduardo Antunes! </strong> Tenho 26 anos e atualmente estou no penúltimo período
+                Olá, me chamo <strong> Eduardo Antunes! </strong> Tenho 26 anos e atualmente estou no penúltimo
+                período
                 do curso de Análises e
                 Desenvolvimento de Sistemas pela Universidade Candido Mendes.
             </p>
@@ -98,37 +96,43 @@
     <div id="skills">
         <h1>Habilidades e Competências.</h1>
         <div id="barra">
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                    aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
+            </div>
             <p>HTML</p>
-            <div class="container">
-                <div class="skills html">80%</div>
-            </div>
 
+
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                    aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+            </div>
             <p>CSS</p>
-            <div class="container">
-                <div class="skills css">70%</div>
-            </div>
 
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                    aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" style="width: 35%"></div>
+            </div>
             <p>JavaScript</p>
-            <div class="container">
-                <div class="skills js">35%</div>
-            </div>
 
-            <p>Phyton</p>
-            <div class="container">
-                <div class="skills phyton">30%</div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                    aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%"></div>
             </div>
+            <p>Python</p>
 
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                    aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%"></div>
+            </div>
             <p>SQL</p>
-            <div class="container">
-                <div class="skills sql">30%</div>
-            </div>
         </div>
 
         <footer>
             <p>Criado por Eduardo Antunes- 2022</p>
             <p>Copyright&copy; 2022 - Todos os direitos reservados</p>
         </footer>
-        
+
 
     </div>
     <!-- Separate Popper and Bootstrap JS -->
